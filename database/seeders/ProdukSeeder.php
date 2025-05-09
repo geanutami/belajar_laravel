@@ -15,7 +15,7 @@ class ProdukSeeder extends Seeder
     {
         DB::table('produk')->insert([
         'id' => '1',
-        'id_kategori' => 'makanan',
+        'id_kategori' => '2',
         'nama_produk' => 'Indomie Goreng',
         'harga_beli' => '2500',
         'harga_jual' => '3000',
